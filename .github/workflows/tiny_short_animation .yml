@@ -39,4 +39,4 @@ jobs:
       run: npm install --global surge
 
     - name: Deploy to Surge
-      run: surge ./build short_animation_appdevelopment_2020.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build short_animation_app_development_2020.surge.sh --token ${{ secrets.SURGE_TOKEN }}
